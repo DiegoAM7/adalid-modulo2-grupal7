@@ -1,0 +1,74 @@
+{
+	"data": [
+		{
+			"marca": "Apple",
+			"modelo": "iPhone 13",
+			"tipo": "Teléfono",
+			"precio": "999.00",
+			"disponibilidad": "Disponible"
+		},
+		{
+			"marca": "Samsung",
+			"modelo": "Galaxy Watch 4",
+			"tipo": "Reloj inteligente",
+			"precio": 249.99,
+			"disponibilidad": "Disponible"
+		},
+		{
+			"marca": "Sony",
+			"modelo": "PlayStation 5",
+			"tipo": "Consola de juegos",
+			"precio": 499.99,
+			"disponibilidad": "Agotado"
+		},
+		{
+			"marca": "Bose",
+			"modelo": "QuietComfort 35 II",
+			"tipo": "Auriculares",
+			"precio": 299.99,
+			"disponibilidad": "Disponible"
+		},
+		{
+			"marca": "LG",
+			"modelo": "OLED65CXPUA",
+			"tipo": "Televisor",
+			"precio": 2099.99,
+			"disponibilidad": "Disponible"
+		},
+		{
+			"marca": "Microsoft",
+			"modelo": "Surface Laptop 4",
+			"tipo": "Computadora portátil",
+			"precio": 999,
+			"disponibilidad": "Disponible"
+		},
+		{
+			"marca": "Fitbit",
+			"modelo": "Versa 3",
+			"tipo": "Smartwatch",
+			"precio": 229.95,
+			"disponibilidad": "Disponible"
+		},
+		{
+			"marca": "Canon",
+			"modelo": "EOS R5",
+			"tipo": "Cámara",
+			"precio": 3899,
+			"disponibilidad": "Agotado"
+		},
+		{
+			"marca": "Amazon",
+			"modelo": "Echo Dot (4th gen)",
+			"tipo": "Altavoz inteligente",
+			"precio": 49.99,
+			"disponibilidad": "Disponible"
+		},
+		{
+			"marca": "DJI",
+			"modelo": "Mavic 3",
+			"tipo": "Dron",
+			"precio": 2199,
+			"disponibilidad": "Agotado"
+		}
+	]
+}

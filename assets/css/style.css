@@ -1,0 +1,108 @@
+/* Desktop */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 16px;
+}
+
+.menu {
+	background-color: #00f;
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu h1 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu ul {
+	list-style: none;
+	display: flex;
+}
+
+.menu ul li {
+	margin: 0 10px;
+}
+
+.menu ul li a,
+.menu ul li a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu ul li a:hover,
+.menu ul li a:active {
+	color: #ccc;
+}
+
+/*Centrar main*/
+main#main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/*Centrar section*/
+section {
+	width: 80%;
+	margin: 20px 0;
+}
+/*Centrar article*/
+article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/*Centrar imagen*/
+article img {
+	width: 100%;
+	max-width: 400px;
+	margin: 20px 0;
+}
+
+.galeria {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin: 0 auto;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 3rem;
+}
+
+footer {
+	background-color: black;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+/* Tablet */
+@media screen and (max-width: 768px) {
+}
+
+/* Mobile */
+@media screen and (max-width: 425px) {
+	html {
+		font-size: 14px;
+	}
+
+	.menu {
+		flex-direction: column;
+		align-items: start;
+		row-gap: 1rem;
+	}
+
+	.menu ul {
+		flex-direction: column;
+		row-gap: 0.7rem;
+	}
+}
