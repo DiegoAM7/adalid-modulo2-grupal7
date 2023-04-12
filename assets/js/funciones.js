@@ -1,4 +1,11 @@
 document.getElementById('form')?.addEventListener('submit', validarForm);
+//Valida que los campos no esten vacios
+//Valida que el nombre no sea mayor a 30 caracteres
+//Valida que el nombre no sea menor a 4 caracteres
+//Valida que el correo sea valido
+//Valida que el mensaje no sea mayor a 200 caracteres
+//Valida que el mensaje no sea menor a 20 caracteres
+//Si todo esta correcto muestra un mensaje de que el mensaje fue enviado correctamente
 
 function validarForm(e) {
 	e.preventDefault();
