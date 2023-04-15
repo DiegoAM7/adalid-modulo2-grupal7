@@ -2,201 +2,174 @@
 <!DOCTYPE html>
 <!-- Definine tipo de lenguaje-->
 <html lang="es">
-	<!-- Contiene información que no se visualizará en el navegador-->
-	<head>
-		<!--Sirven para aportar información al documento (responsividad, palabras claves, descripción, etc)-->
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta
-			name="description"
-			content="La empresa Te lo Vendo es un emprendimiento dedicado a la venta de productosv a través de canales en línea, como el teléfono, correo electrónico y próximamente un sitio web."
-		/>
-		<meta name="keywords" content="venta en línea, comercio electrónico" />
+<!-- Contiene información que no se visualizará en el navegador-->
 
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-			crossorigin="anonymous"
-		/>
-		<!-- Título de la página-->
-		<title>Te lo vendo</title>
-	</head>
+<head>
+	<!--Sirven para aportar información al documento (responsividad, palabras claves, descripción, etc)-->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description"
+		content="La empresa Te lo Vendo es un emprendimiento dedicado a la venta de productosv a través de canales en línea, como el teléfono, correo electrónico y próximamente un sitio web." />
+	<meta name="keywords" content="venta en línea, comercio electrónico" />
 
-	<!--Cuerpo de la página-->
-	<body>
-		<!--Elementos de navegación-->
-		<nav class="navbar navbar-expand-lg bg-primary navbar-dark mb-4">
-			<div class="container-fluid">
-				<!--Encabezado de la página-->
-				<a class="navbar-brand" href="index.html">Te lo vendo</a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+	<!-- Título de la página-->
+	<title>Te lo vendo</title>
+</head>
 
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-						<li class="nav-item">
-							<a class="nav-link" href="index.html">Inicio</a>
-						</li>
+<!--Cuerpo de la página-->
 
-						<li class="nav-item">
-							<a class="nav-link" href="#">Productos</a>
-						</li>
+<body>
+	<!--Elementos de navegación-->
+	<nav class="navbar navbar-expand-lg bg-primary navbar-dark mb-4">
+		<div class="container-fluid">
+			<!--Encabezado de la página-->
+			<a class="navbar-brand" href="index.html">Te lo vendo</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-						<li class="nav-item">
-							<a class="nav-link" href="#">Pedidos</a>
-						</li>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Inicio</a>
+					</li>
 
-						<li class="nav-item">
-							<a class="nav-link" href="estadisticas.html">Estadísticas</a>
-						</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Productos</a>
+					</li>
 
-						<li class="nav-item">
-							<a class="nav-link" href="contacto.html">Contacto</a>
-						</li>
-					</ul>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pedidos</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="estadisticas.html">Estadísticas</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="contacto.html">Contacto</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- comentario maxi -->
+	<!--Contenido principal de la página-->
+	<main class="container-fluid">
+		<div class="row gy-5">
+			<!--Sección de la página-->
+			<section class="text-center col-12">
+				<!--Etiqueta de párrafo-->
+				<h2>¿Quienes somos?</h2>
+				<article>
+					<p>
+						La empresa <strong>Te lo Vendo</strong> es un emprendimiento de un
+						grupo de jóvenes en Chile, dedicado a la venta de productos a
+						través de canales en línea, como el teléfono, correo electrónico y
+						próximamente un sitio web.
+					</p>
+					<img src="https://picsum.photos/200/200?random=7" class="img-fluid" alt="" />
+				</article>
+			</section>
+
+			<section class="text-center col-12">
+				<h2>Sedes</h2>
+				<article>
+					<p>
+						El negocio tiene su sede principal en Concepción, pero cuenta con
+						varias sucursales en otras ciudades de Chile, como Temuco,
+						Valparaíso, Santiago y La Serena. Además, tiene una tienda online
+						donde se pueden comprar sus productos y solicitar sus servicios
+						desde cualquier lugar del país.
+					</p>
+					<img src="https://picsum.photos/200/200?random=8" class="img-fluid" alt="" />
+				</article>
+			</section>
+
+			<section class="text-center col-12">
+				<h2>Productos y servicios</h2>
+				<article>
+					<p>
+						Pertenece al rubro del comercio electrónico y busca mejorar su
+						gestión de pedidos y clientes mediante la implementación de un
+						sistema tecnológico que permita la presentación de productos, toma
+						de pedidos, seguimiento y generación de reportes y estadísticas,
+						asi poder mejorar continuamente la satisfaccion de nuestros
+						clientes.
+					</p>
+					<img src="https://picsum.photos/200/200?random=9" class="img-fluid" alt="" />
+				</article>
+			</section>
+
+			<!--Sección de la página-->
+			<section class="col-12">
+				<div class="row g-2 mx-auto mt-5 justify-center">
+					<h2 class="text-center">Galería</h2>
+					<!--Imágenes-->
+					<a class="col-12 col-sm-6 col-md-4 col-lg-2 text-center" data-fancybox="gallery"
+						href="https://picsum.photos/200/200?random=1">
+						<img src="https://picsum.photos/200/200?random=1" alt=""
+							class="img-fluid border border-danger rounded-bottom rounded-top" />
+					</a>
+					<a class="col-12 col-sm-6 col-md-4 col-lg-2 text-center" data-fancybox="gallery" href="https://picsum.photos/200/200?random=2">
+						<img src="https://picsum.photos/200/200?random=2" alt=""
+							class="img-fluid border border-danger rounded-bottom rounded-top" />
+					</a>
+					<a class="col-12 col-sm-6 col-md-4 col-lg-2 text-center" data-fancybox="gallery" href="https://picsum.photos/200/200?random=3">
+						<img src="https://picsum.photos/200/200?random=3" alt=""
+							class="img-fluid border border-danger rounded-bottom rounded-top" />
+					</a>
+					<a class="col-12 col-sm-6 col-md-4 col-lg-2 text-center" data-fancybox="gallery" href="https://picsum.photos/200/200?random=4">
+						<img src="https://picsum.photos/200/200?random=4" alt=""
+							class="img-fluid border border-danger rounded-bottom rounded-top" />
+					</a>
+					<a class="col-12 col-sm-6 col-md-4 col-lg-2 text-center" data-fancybox="gallery" href="https://picsum.photos/200/200?random=5">
+						<img src="https://picsum.photos/200/200?random=5" alt=""
+							class="img-fluid border border-danger rounded-bottom rounded-top" />
+					</a>
+					<a class="col-12 col-sm-6 col-md-4 col-lg-2 text-center" data-fancybox="gallery" href="https://picsum.photos/200/200?random=6">
+						<img src="https://picsum.photos/200/200?random=6" alt=""
+							class="img-fluid border border-danger rounded-bottom rounded-top" />
+					</a>
 				</div>
+			</section>
+		</div>
+	</main>
+
+	<!--Pie de página-->
+	<footer class="container-fluid text-center text-md-start mt-5 text-bg-dark p-3">
+		<div class="row mt-3">
+			<!-- Grid column -->
+			<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+				<h4>Integrantes:</h4>
+
+				<!--Lista no ordenada-->
+				<ul class="list-group mb-5">
+					<!--Elementos de una lista-->
+					<li class="list-group-item text-bg-dark">Diego Arancibia</li>
+					<li class="list-group-item text-bg-dark">Fabián Salgado</li>
+					<li class="list-group-item text-bg-dark">Jorge Gutiérrez</li>
+					<li class="list-group-item text-bg-dark">Maximiliano Briones</li>
+					<li class="list-group-item text-bg-dark">José Marrufo</li>
+					<li class="list-group-item text-bg-dark">Luis Carrasco</li>
+				</ul>
+
+				<p>Te lo vendo &copy; 2023</p>
 			</div>
-		</nav>
+		</div>
+	</footer>
 
-		<!--Contenido principal de la página-->
-		<main class="container-fluid">
-			<div class="row gy-5">
-				<!--Sección de la página-->
-				<section class="text-center col-12">
-					<!--Etiqueta de párrafo-->
-					<h2>¿Quienes somos?</h2>
-					<article>
-						<p>
-							La empresa <strong>Te lo Vendo</strong> es un emprendimiento de un
-							grupo de jóvenes en Chile, dedicado a la venta de productos a
-							través de canales en línea, como el teléfono, correo electrónico y
-							próximamente un sitio web.
-						</p>
-						<img
-							src="https://picsum.photos/200/200?random=7"
-							class="img-fluid"
-							alt=""
-						/>
-					</article>
-				</section>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+	<script src="assets/js/funciones.js"></script>
+</body>
 
-				<section class="text-center col-12">
-					<h2>Sedes</h2>
-					<article>
-						<p>
-							El negocio tiene su sede principal en Concepción, pero cuenta con
-							varias sucursales en otras ciudades de Chile, como Temuco,
-							Valparaíso, Santiago y La Serena. Además, tiene una tienda online
-							donde se pueden comprar sus productos y solicitar sus servicios
-							desde cualquier lugar del país.
-						</p>
-						<img
-							src="https://picsum.photos/200/200?random=8"
-							class="img-fluid"
-							alt=""
-						/>
-					</article>
-				</section>
-
-				<section class="text-center col-12">
-					<h2>Productos y servicios</h2>
-					<article>
-						<p>
-							Pertenece al rubro del comercio electrónico y busca mejorar su
-							gestión de pedidos y clientes mediante la implementación de un
-							sistema tecnológico que permita la presentación de productos, toma
-							de pedidos, seguimiento y generación de reportes y estadísticas,
-							asi poder mejorar continuamente la satisfaccion de nuestros
-							clientes.
-						</p>
-						<img
-							src="https://picsum.photos/200/200?random=9"
-							class="img-fluid"
-							alt=""
-						/>
-					</article>
-				</section>
-
-				<!--Sección de la página-->
-				<section class="col-12">
-					<div class="row g-2 mx-auto mt-5">
-						<!--Imágenes-->
-						<img
-							src="https://picsum.photos/200/200?random=1"
-							class="img-fluid col-12 col-sm-6 col-md-4 col-lg-2"
-							alt=""
-						/>
-						<img
-							src="https://picsum.photos/200/200?random=2"
-							class="img-fluid col-12 col-sm-6 col-md-4 col-lg-2"
-							alt=""
-						/>
-						<img
-							src="https://picsum.photos/200/200?random=3"
-							class="img-fluid col-12 col-sm-6 col-md-4 col-lg-2"
-							alt=""
-						/>
-						<img
-							src="https://picsum.photos/200/200?random=4"
-							class="img-fluid col-12 col-sm-6 col-md-4 col-lg-2"
-							alt=""
-						/>
-						<img
-							src="https://picsum.photos/200/200?random=5"
-							class="img-fluid col-12 col-sm-6 col-md-4 col-lg-2"
-							alt=""
-						/>
-						<img
-							src="https://picsum.photos/200/200?random=6"
-							class="img-fluid col-12 col-sm-6 col-md-4 col-lg-2"
-							alt=""
-						/>
-					</div>
-				</section>
-			</div>
-		</main>
-
-		<!--Pie de página-->
-		<footer
-			class="container-fluid text-center text-md-start mt-5 text-bg-dark p-3"
-		>
-			<div class="row mt-3">
-				<!-- Grid column -->
-				<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-					<h4>Integrantes:</h4>
-
-					<!--Lista no ordenada-->
-					<ul class="list-group mb-5">
-						<!--Elementos de una lista-->
-						<li class="list-group-item text-bg-dark">Diego Arancibia</li>
-						<li class="list-group-item text-bg-dark">Fabián Salgado</li>
-						<li class="list-group-item text-bg-dark">Jorge Gutiérrez</li>
-						<li class="list-group-item text-bg-dark">Maximiliano Briones</li>
-						<li class="list-group-item text-bg-dark">José Marrufo</li>
-						<li class="list-group-item text-bg-dark">Luis Carrasco</li>
-					</ul>
-
-					<p>Te lo vendo &copy; 2023</p>
-				</div>
-			</div>
-		</footer>
-
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-			crossorigin="anonymous"
-		></script>
-		<script src="assets/js/funciones.js"></script>
-	</body>
 </html>
