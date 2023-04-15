@@ -3,6 +3,7 @@
 <!-- Definine tipo de lenguaje-->
 <html lang="es">
 	<!-- Contiene información que no se visualizará en el navegador-->
+
 	<head>
 		<!--Sirven para aportar información al documento (responsividad, palabras claves, descripción, etc)-->
 		<meta charset="UTF-8" />
@@ -20,11 +21,16 @@
 			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
 			crossorigin="anonymous"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+		/>
 		<!-- Título de la página-->
 		<title>Te lo vendo</title>
 	</head>
 
 	<!--Cuerpo de la página-->
+
 	<body>
 		<!--Elementos de navegación-->
 		<nav class="navbar navbar-expand-lg bg-primary navbar-dark mb-4">
@@ -130,38 +136,75 @@
 
 				<!--Sección de la página-->
 				<section class="col-12">
-					<div class="row g-2 mx-auto mt-5">
+					<div class="row g-2 mx-auto mt-5 justify-center">
+						<h2 class="text-center">Galería</h2>
 						<!--Imágenes-->
-						<img
-							src="https://picsum.photos/200/200?random=1"
-							class="img-fluid col-12 col-sm-6 col-md-4 col-lg-2"
-							alt=""
-						/>
-						<img
-							src="https://picsum.photos/200/200?random=2"
-							class="img-fluid col-12 col-sm-6 col-md-4 col-lg-2"
-							alt=""
-						/>
-						<img
-							src="https://picsum.photos/200/200?random=3"
-							class="img-fluid col-12 col-sm-6 col-md-4 col-lg-2"
-							alt=""
-						/>
-						<img
-							src="https://picsum.photos/200/200?random=4"
-							class="img-fluid col-12 col-sm-6 col-md-4 col-lg-2"
-							alt=""
-						/>
-						<img
-							src="https://picsum.photos/200/200?random=5"
-							class="img-fluid col-12 col-sm-6 col-md-4 col-lg-2"
-							alt=""
-						/>
-						<img
-							src="https://picsum.photos/200/200?random=6"
-							class="img-fluid col-12 col-sm-6 col-md-4 col-lg-2"
-							alt=""
-						/>
+						<a
+							class="col-12 col-sm-6 col-md-4 col-lg-2 text-center"
+							data-fancybox="gallery"
+							href="https://picsum.photos/200/200?random=1"
+						>
+							<img
+								src="https://picsum.photos/200/200?random=1"
+								alt=""
+								class="img-fluid border border-danger rounded-bottom rounded-top"
+							/>
+						</a>
+						<a
+							class="col-12 col-sm-6 col-md-4 col-lg-2 text-center"
+							data-fancybox="gallery"
+							href="https://picsum.photos/200/200?random=2"
+						>
+							<img
+								src="https://picsum.photos/200/200?random=2"
+								alt=""
+								class="img-fluid border border-danger rounded-bottom rounded-top"
+							/>
+						</a>
+						<a
+							class="col-12 col-sm-6 col-md-4 col-lg-2 text-center"
+							data-fancybox="gallery"
+							href="https://picsum.photos/200/200?random=3"
+						>
+							<img
+								src="https://picsum.photos/200/200?random=3"
+								alt=""
+								class="img-fluid border border-danger rounded-bottom rounded-top"
+							/>
+						</a>
+						<a
+							class="col-12 col-sm-6 col-md-4 col-lg-2 text-center"
+							data-fancybox="gallery"
+							href="https://picsum.photos/200/200?random=4"
+						>
+							<img
+								src="https://picsum.photos/200/200?random=4"
+								alt=""
+								class="img-fluid border border-danger rounded-bottom rounded-top"
+							/>
+						</a>
+						<a
+							class="col-12 col-sm-6 col-md-4 col-lg-2 text-center"
+							data-fancybox="gallery"
+							href="https://picsum.photos/200/200?random=5"
+						>
+							<img
+								src="https://picsum.photos/200/200?random=5"
+								alt=""
+								class="img-fluid border border-danger rounded-bottom rounded-top"
+							/>
+						</a>
+						<a
+							class="col-12 col-sm-6 col-md-4 col-lg-2 text-center"
+							data-fancybox="gallery"
+							href="https://picsum.photos/200/200?random=6"
+						>
+							<img
+								src="https://picsum.photos/200/200?random=6"
+								alt=""
+								class="img-fluid border border-danger rounded-bottom rounded-top"
+							/>
+						</a>
 					</div>
 				</section>
 			</div>
@@ -197,6 +240,8 @@
 			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
 			crossorigin="anonymous"
 		></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 		<script src="assets/js/funciones.js"></script>
 	</body>
 </html>
