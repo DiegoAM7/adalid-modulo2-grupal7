@@ -1,0 +1,14 @@
+/* HEADER  */
+h1{
+    color: white;
+    text-shadow:  5px 5px 5px black;
+    font-size: 3rem;
+    text-align: center;
+}
+.contenedor{
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
